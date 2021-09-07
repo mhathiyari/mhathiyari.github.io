@@ -1,253 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Mustafa Portfoliowrap</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
-  <meta content="" name="description">
+---
+layout: page
+title: Hi, I'm Jingbo
+subtitle: PhD student, CS@ILLINOIS
+bigimg: ["/img/01.jpg", "/img/02.JPG", "/img/03.jpg", "/img/banner.JPG", "/img/04.JPG", "/img/05.jpg", "/img/06.JPG", "/img/07.JPG", "/img/09.jpg", "/img/10.jpg", "/img/11.jpg", "/img/12.jpg"]
+use-site-title: true
+---
 
-  <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+<div class="posts-list">
+  {% for post in paginator.posts %}
+  <article class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+	  <h2 class="post-title">{{ post.title }}</h2>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900|Lato:400,900" rel="stylesheet">
+	  {% if post.subtitle %}
+	  <h4 class="post-subtitle">
+	    {{ post.subtitle }}
+	  </h4>
+	  {% endif %}
+    </a>
 
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <p class="post-meta">
+      Posted on {{ post.date | date: "%B %-d, %Y" }}
+    </p>
 
-  <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/prettyphoto/css/prettyphoto.css" rel="stylesheet">
-  <link href="lib/hover/hoverex-all.css" rel="stylesheet">
-
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-    Template Name: Solid
-    Template URL: https://templatemag.com/solid-bootstrap-business-template/
-    Author: TemplateMag.com
-    License: https://templatemag.com/license/
-  ======================================================= -->
-</head>
-
-<body>
-
-  <!-- Fixed navbar -->
-  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        <a class="navbar-brand" href="index.html"> Mustafa Hathiyari </a>
+    <div class="post-entry-container">
+      {% if post.image %}
+      <div class="post-image">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <img src="{{ post.image }}">
+        </a>
       </div>
-      <div class="navbar-collapse collapse navbar-right">
-        <ul class="nav navbar-nav">
-          <!-- <li><a href="index.html">HOME</a></li>
-          <li><a href="about.html">ABOUT</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
-          <li class="dropdown active">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="blog.html">BLOG</a></li>
-              <li><a href="single-post.html">SINGLE POST</a></li>
-              <li><a href="portfolio.html">PORTFOLIO</a></li>
-              <li><a href="single-project.html">SINGLE PROJECT</a></li> -->
-             </ul>
-          </li> -->
-        </ul>
-      </div>
-      <!--/.nav-collapse -->
-    </div>
-  </div>
-
-
-  <!-- *****************************************************************************************************************
-	 BLUE WRAP
-	 ***************************************************************************************************************** -->
-   <div id="blue">
-    <div class="container">
-      <div class="row">
-        <h3>Making machines and being happy</h3>
-        <p>MS Dynamics System and Control UF'18</p>
-      </div>
-      <!-- /row -->
-    </div>
-    <!-- /container -->
-  </div>
-  <!-- /blue -->
-
-  <!-- *****************************************************************************************************************
-	 TITLE & CONTENT
-	 ***************************************************************************************************************** -->
-
-  <div class="container mtb">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 left">
-        <h2>This page contians the things I have worked on and I am passionate about</h2>
-        <br>
-        <div class="hline"></div>
-        <h4>I want to be a Roboticist someday. A person who will design robots to help make life better. I love working on everything involved inbuilding machines from mechanical design, manufacturing,
-           electronics, machining to embedded software and algorithms. In fact, I have worked on quite a few ofthem. I feel somewhere these activities are shaping me to be a better Roboticist. So as I walk 
-           down this path today I am looking for opportunities in control software for it has intrigued me a lot. Going to grad school for the same has ensured I have a decent understanding of the theory.
-           What I crave though is to deliver these controllers into real-life products.
-           </h4>
-        <div class="hline"></div>
-        <br>
+      {% endif %}
+      <div class="post-entry">
+        {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
+        {% assign excerpt_word_count = post.excerpt | number_of_words %}
+        {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
+        {% endif %}
       </div>
     </div>
-  </div>
 
-  <!-- *****************************************************************************************************************
-	 PORTFOLIO SECTION
-	 ***************************************************************************************************************** -->
-  <div id="portfoliowrap">
-    <div class="portfolio-centered">
-      <div class="recentitems portfolio">
-        <div class="portfolio-item graphic-design">
-          <div class="he-wrap tpl6">
-            <img src="img/portfolio/RRT_basic_1.png" alt="">
-            <div class="he-view">
-              <div class="bg a0" data-animate="fadeIn">
-                <h3 class="a1" data-animate="fadeInDown">Rapidly Exploring Random Trees</h3>
-                <a data-rel="prettyPhoto" href="img/portfolio/RRT_basic_1.png" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                <a href="https://github.com/mhathiyari/RRT_in_cpp/tree/optimized" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-              </div>
-              <!-- he bg -->
-            </div>
-            <!-- he view -->
-          </div>
-          <!-- he wrap -->
-        </div>
-        <!-- end col-12 -->
-
-        <div class="portfolio-item web-design">
-          <div class="he-wrap tpl6">
-            <img src="img/portfolio/controller_exp.gif" alt="">
-            <div class="he-view">
-              <div class="bg a0" data-animate="fadeIn">
-                <h3 class="a1" data-animate="fadeInDown">Library of Controller in Cpp</h3>
-                <a data-rel="prettyPhoto" href="img/portfolio/controller_exp.gif" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                <a href="https://github.com/mhathiyari/controller_experimentation" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-              </div>
-              <!-- he bg -->
-            </div>
-            <!-- he view -->
-          </div>
-          <!-- he wrap -->
-        </div>
-        <!-- end col-12 -->
-  
-        <div class="portfolio-item graphic-design">
-          <div class="he-wrap tpl6">
-            <img src="img/portfolio/TA_101.png" alt="">
-            <div class="he-view">
-              <div class="bg a0" data-animate="fadeIn">
-                <h3 class="a1" data-animate="fadeInDown">Team Aerosouls</h3>
-                <a data-rel="prettyPhoto" href="img/portfolio/TA_101.png" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                <a href="https://www.facebook.com/teamaerosouls/" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-              </div>
-              <!-- he bg -->
-            </div>
-            <!-- he view -->
-          </div>
-          <!-- he wrap -->
-        </div>
-        <!-- end col-12 -->
-
-        <div class="portfolio-item graphic-design">
-          <div class="he-wrap tpl6">
-            <img src="img/portfolio/innovision_web.png" alt="">
-            <div class="he-view">
-              <div class="bg a0" data-animate="fadeIn">
-                <h3 class="a1" data-animate="fadeInDown">Electronic Braille Display</h3>
-                <a data-rel="prettyPhoto" href="img/portfolio/innovision_web.png" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                <a href="http://innovisiontech.co/brailleme/" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-              </div>
-              <!-- he bg -->
-            </div>
-            <!-- he view -->
-          </div>
-          <!-- he wrap -->
-        </div>
-        <!-- end col-12 -->
-
-      </div>
-      <!-- portfolio -->
+    {% if post.tags.size > 0 %}
+    <div class="blog-tags">
+      Tags:
+      {% if site.link-tags %}
+      {% for tag in post.tags %}
+      <a href="{{ site.baseurl }}/tag/{{ tag }}">{{ tag }}</a>
+      {% endfor %}
+      {% else %}
+        {{ post.tags | join: ", " }}
+      {% endif %}
     </div>
-    <!-- portfolio container -->
-  </div>
-  <!--/Portfoliowrap -->
+    {% endif %}
 
--->
+   </article>
+  {% endfor %}
+</div>
 
-  <!-- *****************************************************************************************************************
-	 FOOTER
-	 ***************************************************************************************************************** -->
-  <div id="footerwrap">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4">
-          <h4>About</h4>
-          <div class="hline-w"></div>
-          <p>A happy engineer who loves creating robots.</p>
-        </div>
-        <div class="col-lg-4">
-          <h4>Social Links</h4>
-          <div class="hline-w"></div>
-          <p>
-            <a href="https://www.linkedin.com/in/mustafa-hathiyari-b5b180b5/"><i class="fa fa-linkedin"></i></a>
-            <a href="https://github.com/mhathiyari"><i class="fa fa-github"></i></a>
-            <a href="https://www.instagram.com/mustafahathiyari93/"><i class="fa fa-instagram"></i></a>
-          </p>
-        </div>
-        <div class="col-lg-4">
-          <h4>Address</h4>
-          <div class="hline-w"></div>
-          <p>
-            City of Angels<br/> United States.<br/>
-          </p>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-  <div id="copyrights">
-    <div class="container">
-      <p>
-        &copy; Copyrights <strong>Solid</strong>. All Rights Reserved
-      </p>
-      <div class="credits">
-        <!--
-          You are NOT allowed to delete the credit link to TemplateMag with free version.
-          You can delete the credit link only if you bought the pro version.
-          Buy the pro version with working PHP/AJAX contact form: https://templatemag.com/solid-bootstrap-business-template/
-          Licensing information: https://templatemag.com/license/
-        -->
-        Created with Solid template by <a href="https://templatemag.com/">TemplateMag</a>
-      </div>
-    </div>
-  </div>
-  <!-- / copyrights -->
-
-  <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-  <script src="lib/php-mail-form/validate.js"></script>
-  <script src="lib/prettyphoto/js/prettyphoto.js"></script>
-  <script src="lib/isotope/isotope.min.js"></script>
-  <script src="lib/hover/hoverdir.js"></script>
-  <script src="lib/hover/hoverex.min.js"></script>
-
-  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
-
-</body>
-</html>
+{% if paginator.total_pages > 1 %}
+<ul class="pager main-pager">
+  {% if paginator.previous_page %}
+  <li class="previous">
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+  </li>
+  {% endif %}
+  {% if paginator.next_page %}
+  <li class="next">
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}

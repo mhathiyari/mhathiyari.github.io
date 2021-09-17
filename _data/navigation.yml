@@ -12,11 +12,11 @@ main:
   # - title: "Portfolio"
     # url: /portfolio/
         
-  - title: "Blog Posts"
+  - title: "Posts"
     url: /year-archive/
     
-  # - title: "CV"
-    # url: /cv/
+  - title: "CV"
+    url:https://drive.google.com/file/d/1vBO75aJvGcnwjDlQd25d6LFc1dWC6kGs/view?usp=sharing
     
   # - title: "Guide"
     # url: /markdown/

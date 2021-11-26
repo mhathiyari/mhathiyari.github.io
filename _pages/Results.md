@@ -16,8 +16,12 @@ Multiple images is captured of the same scene in sucession by the user. The devi
     </td>
      <td>
     <p align="center">
-    <img width=50% src="https://en.wikipedia.org/wiki/Image#/media/File:Image_created_with_a_mobile_phone.png" alt="Formation attacked by cannonballs"/>
+![collage of crowded place](/images/collage_of_images.JPG)
     </p>
     </td>
   </tr>
 </table>
+{% include base_path %}
+{% for post in site.pages %}
+{% include archive-single.html %}
+{% endfor %}

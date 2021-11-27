@@ -11,7 +11,7 @@ Multiple images is captured of the same scene in sucession by the user. The devi
  <tr>
    <td>
     <p align="center">
-    <img width=100% src="/images/collage_of_images.JPG" alt="Formation attacked by cannonballs"/>
+    <img width=100% src="https://github.com/mhathiyari/mhathiyari.github.io/blob/master/images/collage_of_images.JPG" alt="Formation attacked by cannonballs"/>
     </p>
     </td>
      <td>

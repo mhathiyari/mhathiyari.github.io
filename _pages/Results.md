@@ -10,18 +10,11 @@ Multiple images is captured of the same scene in sucession by the user. The devi
 <table style="border: none; border-collapse: collapse;" border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
  <tr>
    <td>
-
-    <img width=100% src="https://github.com/mhathiyari/mhathiyari.github.io/blob/master/images/collage_of_images.jpg" alt="Formation attacked by cannonballs"/>
      <img src="/images/collage_of_images.JPG" style="display: block; margin: auto;" />
-    </td>
-     <td>
-    <p align="center">
-![collage of crowded place](/images/collage_of_images.JPG)
-    </p>
-    </td>
+   </td>
+   <td>
+	<img src="/images/Median_final.jpg" style="display: block; margin: auto;" />
+   </td>
   </tr>
 </table>
-{% include base_path %}
-{% for post in site.pages %}
-{% include archive-single.html %}
-{% endfor %}
+

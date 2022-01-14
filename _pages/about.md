@@ -14,7 +14,7 @@ I have been fascinated by multi-robot systems for years now and I am planning to
 ### Interests
 <details>
   <summary>Multi agent systems or Multi robot systems</summary>
-#### TL;DR
+<h4>TL;DR</h4>
 I am interested in the idea of making multi robot team more efficient and reliable than their single agent counterparts. This involves the study of multi robot path planning, dynamic task assignment, interaction with other agent and humans. My plan is to contribute to these subfields in graduate school and in my career beyond that.
 
 
@@ -23,9 +23,17 @@ I realized that organic farming is bad for the environment. According to a study
 While exploring these questions I got introduced to the field of multi agent system. Since then, I have realized that answering the above question would not only help agricultural robot teams but many other applications such as wildfire management, disaster response etc. Thus, I have chosen to pursue graduate studies in this topic. It will allow me to gain expertise to make multi agent systems a reality in consumer hands.
 
 
-
 </details>
 
+<details>
+  <summary>Click to expand!</summary>
+  
+  ## Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-6PK7XEEYJ2"></script>
 <script>

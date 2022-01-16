@@ -1,11 +1,32 @@
 ---
 layout: archive
 title: "CV"
-permalink: /cv/
+permalink: /cv1 /
 author_profile: true
 redirect_from:
   - /resume
 ---
+
+This page contains a more visual CV which adds context to my work. If you prefer a more formal CV please click here.
+
+### [Lucid Motors](https://www.lucidmotors.com/) (2020- 2021)
+#### Senior Motion Planning and Controls Engineer
+![](/images/lucid_motors.jpg)
+
+*	Implemented Vehicle Side Slip estimation algorithms for Lucid Air.
+*	System Identification of actuator characteristics for lateral and longitudinal control of the car.
+*	Integration of the motion planning and control stack onto lucid air vehicle.
+
+### [Faraday Future](https://www.ff.com/) (2018-2020)
+#### ADAS  Control SW Engineer 
+![](/images/farday_future.jpg)
+*	Investigated and implemented a Global planner for Parking lot Summon feature for FF91.
+*	Part of team responsible design of system architecture for a more advanced parking lot summon feature.
+*	Part of team responsible design of new ADAS sensor and feature suite for Delivery Vans.
+*	Programming in C/C++ to create application level software for the Self Drive computer running an RTOS.
+*	Developed and Test State machines for features for Lane Centering Control, Automatic Parking.
+
+
 
 {% include base_path %}
 

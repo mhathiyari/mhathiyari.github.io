@@ -11,15 +11,17 @@ main:
     
   # - title: "Portfolio"
     # url: /portfolio/
-        
+  - title: "CV"
+    url: https://drive.google.com/file/d/1JSIIDGW5NpHBrHMOIRkY9sQ0unO4wvkd/view?usp=sharing
+
+  - title: "Resources"
+    url: /Resources/
+
+  - title: "Side Projects"
+    url: https://drive.google.com/file/d/1gBYWD0gnhUwRh2IkKheQvWPyyEqWjhAp/view?usp=sharing
+
   - title: "Posts"
     url: /year-archive/
     
-  - title: "CV"
-    url: https://drive.google.com/file/d/1vBO75aJvGcnwjDlQd25d6LFc1dWC6kGs/view?usp=sharing
+
     
-  - title: "Resources"
-    url: /Resources/
-    
-  - title: "Side Projects"
-    url: https://drive.google.com/file/d/1gBYWD0gnhUwRh2IkKheQvWPyyEqWjhAp/view?usp=sharing

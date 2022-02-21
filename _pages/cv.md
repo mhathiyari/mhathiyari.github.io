@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-This page contains a more visual CV which adds context to my work. If you prefer a more formal CV please click here.
+This page contains a more visual CV which adds context to my work. If you prefer a more formal CV please click [here](https://drive.google.com/file/d/1JSIIDGW5NpHBrHMOIRkY9sQ0unO4wvkd/view).
 
 ### [Lucid Motors](https://www.lucidmotors.com/) (2020- 2021)
 #### Senior Motion Planning and Controls Engineer

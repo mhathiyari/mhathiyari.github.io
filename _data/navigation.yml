@@ -12,7 +12,7 @@ main:
   # - title: "Portfolio"
     # url: /portfolio/
   - title: "CV"
-    url: https://drive.google.com/file/d/1JSIIDGW5NpHBrHMOIRkY9sQ0unO4wvkd/view?usp=sharing
+    url: /cv/ #https://drive.google.com/file/d/1JSIIDGW5NpHBrHMOIRkY9sQ0unO4wvkd/view?usp=sharing
 
   - title: "Resources"
     url: /Resources/

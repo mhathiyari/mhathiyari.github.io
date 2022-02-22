@@ -13,7 +13,6 @@ This page contains a more visual CV which adds context to my work. If you prefer
 
 ### [Lucid Motors](https://www.lucidmotors.com/) (2020- 2021)
 #### Senior Motion Planning and Controls Engineer
-<!-- ![](/images/lucid_motors.jpg) -->
 
 <img src="/images/lucid_motors.jpg" width="50%" height="50%">
 
@@ -23,7 +22,7 @@ This page contains a more visual CV which adds context to my work. If you prefer
 
 ### [Faraday Future](https://www.ff.com/) (2018-2020)
 #### ADAS  Control SW Engineer 
-![](/images/farday_future.jpg)
+<img src="/images/farday_future.jpg" width="50%" height="50%">
 *	Investigated and implemented a Global planner for Parking lot Summon feature for FF91.
 *	Part of team responsible design of system architecture for a more advanced parking lot summon feature.
 *	Part of team responsible design of new ADAS sensor and feature suite for Delivery Vans.
@@ -32,30 +31,28 @@ This page contains a more visual CV which adds context to my work. If you prefer
 
 ### [Nonlinear Control and Robotics Group (NCR)](https://ncr.mae.ufl.edu/index.php?id=ncr) (2017-2018)
 #### Graduate Researcher
-![](/images/NCR.jpg)
+<img src="/images/NCR.jpg" width="50%" height="50%">
  * Implemented Non-linear controls on Unmanned Aerial Vehicles and Unmanned Ground vehicles platforms using ROS and C++. 
 *	System Identification and modelling for current level control of Quadrotors.
 *	Building Quadrotors with low level control and on board computers for online vision control.
 
 ### [Innovision (Electronic Braille Display)](https://innovisiontech.co/brailleme/) (2016)
 #### Mechanical Engineer
-![](/images/innovision.png)
+<img src="/images/innovision.png" width="50%" height="50%">
 *	Developed a novel mechanism for braille dot to be raised and lowered.
 *	Responsible for product design of an electronic braille display.
 
 ### [3D Spell]() (2015-2016)
 #### Co-Founder and Engineer
-![](/images/3dspellcollage.jpg)
+<img src="/images/3dspellcollage.jpg" width="50%" height="50%">
 *	Product Development of a delta mechanism based large volume 3d printer for medium scale industries in India.
 *	Responsible for Electronics and Structural Design of the system.
 *	Developed the bootstrap financial model for the company.
 
 ### [Team Aerosouls](https://www.facebook.com/teamaerosouls) (2012-2014)
 #### Team Captain & Structural Engineer
-![](/images/TA_2014.jpg)
-
-![](/images/TA_2015.jpg)
-
+<img src="/images/TA_2014.jpg" width="50%" height="50%">
+<img src="/images/TA_2015.jpg" width="50%" height="50%">
 *	Autopilot Integration with a cargo UAV with 2 meter wingspan and payload capacity of 15 lbs.
 *	Developed Payload drop algorithm to allow for a unguided aid packet to be delivered to the target.
 *	Designed and manufactured the composite fuselage and spar from scratch.

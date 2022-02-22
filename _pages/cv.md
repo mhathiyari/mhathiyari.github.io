@@ -15,7 +15,7 @@ This page contains a more visual CV which adds context to my work. If you prefer
 #### Senior Motion Planning and Controls Engineer
 <!-- ![](/images/lucid_motors.jpg) -->
 
-<img src="https://github.com/mhathiyari/mhathiyari.github.io/blob/master/images/lucid_motors.jpg" width="50%" height="50%">
+<img src="/images/lucid_motors.jpg" width="50%" height="50%">
 
 *	Implemented Vehicle Side Slip estimation algorithms for Lucid Air.
 *	System Identification of actuator characteristics for lateral and longitudinal control of the car.

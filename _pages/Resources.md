@@ -25,3 +25,6 @@ Have you ever wished to change the focus after taking a picture? With Light fiel
 ### Controls
 * [Respect the Unstable](https://www.youtube.com/watch?v=9Lhu31X94V4&ab_channel=engineeringhistory) is a lecture by Gunter Stein about control theory and our responsibilities as a control engineer([Article version of the Lecture](https://drive.google.com/file/d/1GSehpwxxonx-AkCn5gAO1kyxIM99FuQM/view?usp=sharing)). I feel its mandatory reading for anyone dealing with control systems in the physical world. He talks about bode integral and importance of classical control theory in education.  
 * A good review of controls is a [Control Bootcamp]( https://www.youtube.com/watch?v=Pi7l8mMjYVE&list=PLMrJAkhIeNNR20Mz-VpzgfQs5zrYi085m&ab_channel=SteveBrunton) by Steve Brunton
+
+### New to Linux or ROS
+* I still remember the time when as a Masters student i first came to know about linux and ROS. Navigating Linux and coding in it can be really frustrating. Here is a course https://missing.csail.mit.edu/ which will walk you through the basics. 

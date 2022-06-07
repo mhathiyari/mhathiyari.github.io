@@ -43,6 +43,7 @@ What if physiotherapist could be like doctors of internal medicine, who asses th
 
 <p><br>Apart from robotics I enjoy hiking and calligraphy. I have hiked the remote regions of the Zanskar and Spiti Valley in the Himalayas. I regularly hike the Sahyadri mountains in Maharashtra, India. I am also passionate about teaching, one my of best teaching experiences was at Phugtal monastery in Zanskar. Here I taught young lamas english and mechanics of pulleys. If you want to know more or have any questions please feel free to email me at mustafah "at" ufl "dot" edu.</p>
 
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-6PK7XEEYJ2"></script>
 <script>

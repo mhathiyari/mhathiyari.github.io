@@ -1,5 +1,3 @@
-# Why Professors Don’t Respond to Your Emails (and Why You Shouldn’t Lose Hope)
-
 If you’ve ever sent a carefully written email to a professor—maybe asking about research opportunities or advice on graduate school—only to be met with silence, you’re not alone.
 
 It can feel discouraging. *Did I say something wrong? Was my question silly?* More often than not, though, the lack of response has nothing to do with you or your potential. Instead, it reflects how professors manage the overwhelming flood of emails they receive.
